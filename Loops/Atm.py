@@ -24,11 +24,6 @@ def startAtm(balance):
             print('Your balance is %0.2f' % balance)
 
 
-
-
-
-
-
         elif option == 2:
             print('Your balance is %0.2f' % balance)
             withdraw = (float(input('How much would you like to withdraw today ?  :')))
