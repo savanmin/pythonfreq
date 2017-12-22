@@ -6,3 +6,10 @@ Suppose the following input is supplied to the program:
 Then, the output should be:
 {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
 """
+
+res = {}
+n = int(input('Number : '))
+for i in range(n, 0, -1):
+    res.update({i: i**2})
+
+print (res)
